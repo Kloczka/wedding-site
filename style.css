@@ -199,3 +199,30 @@ h1,h2,h3,ul,p,img {
     .a {
         margin-bottom: 1.5rem;
     }
+
+    /*----    Footer    ----*/
+
+    footer {
+        height: 12vh;
+        width: 100vw;
+        display: table;
+        text-align: center;
+        background-color: #606060;
+        color: #fff;
+        font-family: 'Muli', sans-serif;
+        font-size: .85rem;
+    }
+      
+    .footer-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+        padding: .5rem 1rem;
+    }
+      
+    footer p {
+        margin-bottom: 0;
+    }
+      
+    footer small {
+        line-height: 1.5;
+    }
