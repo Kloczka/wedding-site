@@ -226,3 +226,71 @@ h1,h2,h3,ul,p,img {
     footer small {
         line-height: 1.5;
     }
+
+/*----    Biggest viewport    ----*/
+
+@media (min-width: 768px) {
+
+    /*----Cover----*/
+
+    .cover {
+      background: url('./assets/wedding-landing-cover.jpg') no-repeat center/cover;
+    }
+    .cover-text {
+        padding: 1.25rem;
+        border-radius: 4px;
+        width: 50%;
+    }
+    .cover-text h1 {
+        font-size: 7rem;
+    }
+    .tagline {
+        text-transform: uppercase;
+    }
+
+    /*----Locations----*/
+
+    .location-box {
+        display: inline-block;
+        width: 30%;
+        padding: 1.5rem;
+        margin: .5rem;
+    }
+    
+    .location-box::after {
+        display: none;
+    }
+
+    /*----Program----*/
+
+    .program-wrapper {
+        width: 33vw;
+        margin: 0 auto;
+    }
+
+    /*----FAQ----*/
+
+    .q-a {
+        display: inline-block;
+        width: 30%;
+        padding: 1.5rem;
+        margin: .5rem;
+        vertical-align: top;
+    }
+    
+    .q-a::after {
+        display: none;
+    }
+    
+    .q-a h3 {
+        text-align: left;
+    }
+
+    /*----Footer----*/
+
+    footer {
+        min-height: 8vh;
+    }
+  
+}
+   
