@@ -49,7 +49,7 @@ h1,h2,h3,ul,p,img {
 }
 .loc{
     margin-bottom: 0;
-  }
+}
   
     /*----    Cover    ----*/
 
@@ -158,4 +158,13 @@ h1,h2,h3,ul,p,img {
       
     .program ul {
         letter-spacing: .025rem;
+    }
+
+    /*----    Gifts    ----*/
+
+    .gifts img {
+        height: 7.5rem;
+    }
+    .eog {
+        margin-bottom: 0;
     }
