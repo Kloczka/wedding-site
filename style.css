@@ -2,45 +2,45 @@
 
 * {
     box-sizing: border-box;
-  }
+}
   
     
-  body {
+body {
     background: url('./assets/wedding-landing-background.png') repeat center;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.125rem;
     line-height: 1.5;
     color: #444349;
-  }
+}
   
-  .locations,.program,.gifts,.faq,.contact {
+.locations,.program,.gifts,.faq,.contact {
     width: 96%;
     margin: 1.5rem auto;
     padding: .5rem 1rem;
     text-align: center;
-  }
+}
   
-  h1,h2 {
+h1,h2 {
     font-family: 'Great Vibes', cursive;
-  }
+}
   
-  h2 {
+h2 {
     font-size: 3rem;
-  }
+}
   
-  h3 {
+h3 {
     font-size: 1.5rem;
-  }
+}
   
-  a {
+a {
     text-decoration: none;
     color: #bd806e;
-  }
+}
   
-  a:hover {
+a:hover {
     color: #eda087;
     transition: color .18s ease-in-out;
-  }
+}
 
 /* vertical layout space */
   
@@ -80,30 +80,29 @@ h1,h2,h3,ul,p,img {
         font-size: 3.15rem;
         color: #d2ba87;
         margin-bottom: 0; 
-      }
+    }
       
-      .tagline {
+    .tagline {
         font-size: 1.25rem;
         letter-spacing: .15rem;
-      }
+    }
       
-      .tagline::after {
+    .tagline::after {
         display: block;
         content: "";
         background-color: #fff;
         height: 1px;
         width: 12.5rem;
         margin: .5rem auto;
-      }
+    }
       
-      .date {
+    .date {
         font-size: 1.25rem;
         letter-spacing: .15rem;
         vertical-align: middle;
-      }
+    }
       
-      .date::before,
-      .date::after {
+    .date::before,.date::after {
         display: inline-block;
         content: "";
         background-color: #fff;
@@ -111,28 +110,52 @@ h1,h2,h3,ul,p,img {
         width: 1.5rem;
         vertical-align: middle;
         margin: 0 .5rem;
-      }
+    }
 
-      /*----    Loc style    ----*/
+    /*----    Locations   ----*/
 
-      .location-box img {
+    .location-box img {
         height: 7.5rem;
-      }
+    }
       
-      .location-box h3 {
+    .location-box h3 {
         font-weight: 700;
-      }
+    }
       
-      .location-box div {
+    .location-box div {
         font-family: 'Muli', sans-serif;
-      }
+    }
       
       
-      .location-box::after {
+    .location-box::after {
         content: "";
         display: block;
         height: .1875rem;
         width: 25vw;
         margin: 1.5rem auto;
         background-color: #444349;
-      }
+    }
+
+    /*----    Program   ----*/
+
+    .program {
+        width: 100vw;
+        text-align: left;
+        background: rgba(0, 0, 0, 0.6);
+        color: #d2ba87;
+        font-family: 'Muli', sans-serif;
+    }
+      
+    .program h2 {
+        font-family: 'Great Vibes', cursive;
+        margin-top: .8rem; 
+        text-align: center;
+    }
+      
+    .program p {
+        font-style: italic;
+    }
+      
+    .program ul {
+        letter-spacing: .025rem;
+    }
