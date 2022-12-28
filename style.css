@@ -168,3 +168,34 @@ h1,h2,h3,ul,p,img {
     .eog {
         margin-bottom: 0;
     }
+
+    /*----    FAQ    ----*/
+
+    .faq {
+        background: rgba(0, 0, 0, 0.6);
+        color: #d2ba87;
+        width: 100vw;
+        text-align: center;
+    }
+    .faq h2 {
+        margin-top: 1rem; 
+    }
+    .faq p {
+        font-family: 'Muli', sans-serif;
+        text-align: left;
+    }
+    .q-a::after {
+        content: "";
+        display: block;
+        height: .1875rem;
+        width: 50vw;
+        margin: 1.5rem auto;
+        background-color: #d2ba87;
+    }
+    .q {
+        font-weight: 700;
+        margin-bottom: .5rem;
+    }
+    .a {
+        margin-bottom: 1.5rem;
+    }
